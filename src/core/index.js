@@ -36,6 +36,8 @@ import Editor from './Editor.js';
 import * as sceneObjs from './sceneObjs.js';
 import geometry from './geometry.js';
 import i18next from 'i18next';
+import microscopeSlide from "./microscopeSlide001.js";
+
 
 // Check if we're in a Node.js environment
 // This will be true when built with webpack.node.config.mjs
@@ -62,5 +64,6 @@ export {
   Simulator,
   Editor,
   sceneObjs,
+  microscopeSlide,
   geometry
 };
